@@ -1,0 +1,20 @@
+<style>
+
+  /* Mobile Menu Nav Close (X) and Animation */
+.mobile_nav.opened .mobile_menu_bar:before {
+    content: '\4d';
+}
+
+.mobile_menu_bar:before {
+	transition: all .4s ease;
+	transform: rotate(0deg);
+	display: block;
+}
+
+.mobile_nav.opened .mobile_menu_bar::before {
+	transition: all .4s ease;
+	transform: rotate(90deg);
+	display: block;
+}
+
+</style>
